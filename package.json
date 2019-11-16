@@ -1,0 +1,32 @@
+{
+  "name": "livenotif-server",
+  "version": "4.0.0",
+  "description": "V4 backend server for LiveNotif addons",
+  "main": "build/app.js",
+  "scripts": {
+    "build": "tsc .",
+    "lint": "tslint .",
+    "start": "node -r dotenv/config build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siffreinsg/livenotif-api.git"
+  },
+  "author": "Siffrein Sigy <hello@siffreinsigy.me>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/siffreinsg/livenotif-api/issues"
+  },
+  "homepage": "https://github.com/siffreinsg/livenotif-api#readme",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^12.12.7",
+    "@types/web-push": "^3.3.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "web-push": "^3.4.1"
+  }
+}

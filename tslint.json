@@ -1,0 +1,31 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:all"
+    ],
+    "jsRules": {},
+    "rules": {
+        "prefer-function-over-method": false,
+        "no-magic-numbers": false,
+        "align": false,
+        "no-console": false,
+        "interface-name": false,
+        "no-import-side-effect": false,
+        "no-inferrable-types": false,
+        "object-literal-sort-keys": [
+            true,
+            "ignore-case",
+            "match-declaration-order"
+        ],
+        "max-line-length": [
+            true,
+            165
+        ],
+        "variable-name": [
+            true,
+            "allow-leading-underscore"
+        ],
+        "only-arrow-functions": false
+    },
+    "rulesDirectory": []
+}
