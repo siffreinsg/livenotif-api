@@ -13,10 +13,7 @@
             "outFiles": [
                 "${workspaceFolder}/build/**/*.js"
             ],
-            "args": [
-                "--require",
-                "dotenv/config"
-            ]
+            "envFile": "${workspaceFolder}/.env",
         }
     ]
 }

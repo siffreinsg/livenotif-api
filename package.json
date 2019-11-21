@@ -20,13 +20,16 @@
   "homepage": "https://github.com/siffreinsg/livenotif-api#readme",
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.2",
     "@types/node": "^12.12.7",
     "@types/web-push": "^3.3.0",
     "tslint": "^5.20.0",
     "typescript": "^3.6.3"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "dotenv": "^8.1.0",
+    "express": "^4.17.1",
     "web-push": "^3.4.1"
   }
 }
